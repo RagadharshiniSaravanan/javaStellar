@@ -1,0 +1,15 @@
+package constructor;
+public class Main{
+    constructor(String name,int code)
+    {
+        System.out.println("welcome");
+        String collageName=name;
+        int collagecode=code;
+        System.out.println("collage name is:"+collageName);
+        System.out.println("collage name is:"+collagecode);
+    }
+    public static void main(String[] args)
+    {
+        Constructor obj = new constructor("xyz",101);
+    }
+}

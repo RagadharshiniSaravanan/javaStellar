@@ -1,0 +1,23 @@
+public class constructor{
+    constructor()
+    {
+        System.out.println("hello");
+    }
+    constructor(int a)
+    {
+        int temp=a;
+        System.out.println("value is"+temp);
+    }
+    constructor(String b)
+    {
+        String temp1=b;
+        System.out.println("value is"+temp1);
+    }
+    public static void main(String[] args)
+    {
+        constructor obj1=new constructor();
+        constructor obj2=new constructor(10);
+        constructor obj3=new constructor("ABC");
+
+    }
+}
